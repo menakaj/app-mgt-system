@@ -10,6 +10,24 @@ endpoints:
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
+  - name: appointmentsvc2
+    displayName: Appointment Service2
+    service:
+      basePath: /
+      port: 8080
+    type: REST
+    networkVisibilities:
+      - Public, Organization
+    schemaFilePath: openapi2.yaml
+  - name: appointmentsvc-proj
+    displayName: Appointment Proj
+    service:
+      basePath: /
+      port: 8080
+    type: REST
+    networkVisibilities:
+      - Project
+    schemaFilePath: openapi.yaml
 
 dependencies:
   connectionReferences:
