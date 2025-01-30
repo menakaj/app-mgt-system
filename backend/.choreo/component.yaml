@@ -14,7 +14,7 @@ endpoints:
     displayName: Appointment Service2
     service:
       basePath: /
-      port: 8080
+      port: 8081
     type: REST
     networkVisibilities:
       - Public
@@ -24,7 +24,7 @@ endpoints:
     displayName: Appointment Proj
     service:
       basePath: /
-      port: 8080
+      port: 8082
     type: REST
     networkVisibilities:
       - Project
